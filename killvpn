@@ -1,0 +1,2 @@
+#!/bin/bash
+docker stop v2raya

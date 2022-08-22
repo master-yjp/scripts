@@ -1,7 +1,2 @@
 #!/bin/bash
-cd ~/overwall/clash
- ./cfw
-
-
-
-
+[ "$(docker ps | grep v2raya)" ] && docker stop v2raya >> /dev/null || docker restart v2raya >> /dev/null;
